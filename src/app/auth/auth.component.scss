@@ -1,0 +1,44 @@
+.form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+input[type=text]:focus:not([readonly]) + label {
+  color: white;
+}
+
+input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+.uns{
+  color: white;
+}
+.log-btn {
+  cursor: pointer;
+  all: unset;
+  font-family: 'Gilroy ExtraBold', sans-serif;
+  color: black;
+  padding: 15px;
+  font-size: 1.5rem;
+  text-transform: none;
+  padding-left: 40px;
+  text-decoration: none;
+  padding-right: 40px;
+  border-radius: 30px;
+  background-color: white;
+  margin-right:2px;
+  margin-top: 10px;
+}
+
+.log-btn:link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.log-btn:hover {
+  color: black;
+  cursor: pointer;
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 1);
+}

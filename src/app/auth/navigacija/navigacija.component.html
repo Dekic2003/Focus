@@ -1,0 +1,23 @@
+<mdb-navbar *ngIf="scrWidth < 990 ? true : true" SideClass="navbar navbar-expand-lg navbar-light white" [containerInside]="false">
+  <mdb-navbar-brand style="width: 10%">
+    <a [routerLink]="[' ']"> <img src="../../../assets/Logo.png" style="width: 100%" ></a>
+  </mdb-navbar-brand>
+
+  <links style="font-size: xx-large">
+
+    <ul class="navbar-nav ml-auto">
+      <!-- Dropdown -->
+      <li class="nav-item dropdown" dropdown>
+        <a [routerLink]="['/auth/LogIn']" dropdownToggle mdbWavesEffect type="button" class="log-btn" >Prijava</a>
+      </li>
+
+      <li class="nav-item">
+        <a [routerLink]="['/auth/SignIn']"> <p class="join-btn" mdbWavesEffect> Registracija</p></a>
+      </li>
+
+
+    </ul>
+
+  </links>
+
+</mdb-navbar>
