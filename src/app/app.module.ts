@@ -21,6 +21,7 @@ import { OcjeneComponent } from './appstack/ocjene/ocjene.component';
 import { PredmetiuceniciComponent } from './appstack/predmetiucenici/predmetiucenici.component';
 import { OcjeneuceniciComponent } from './appstack/ocjeneucenici/ocjeneucenici.component';
 import { ZadacauceniciComponent } from './appstack/zadacaucenici/zadacaucenici.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { ZadacauceniciComponent } from './appstack/zadacaucenici/zadacaucenici.c
     OcjeneComponent,
     PredmetiuceniciComponent,
     OcjeneuceniciComponent,
-    ZadacauceniciComponent
+    ZadacauceniciComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
