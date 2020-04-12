@@ -11,6 +11,10 @@ import { LogComponent } from './auth/log/log.component';
 import { SignComponent } from './auth/sign/sign.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { LandComponent } from './land/land.component';
+import { LandingloggedComponent } from './appstack/landinglogged/landinglogged.component';
+import { AddHWComponent } from './appstack/add-hw/add-hw.component';
+import { HWComponent } from './appstack/hw/hw.component';
+import { NavbarloggedComponent } from './appstack/navbarlogged/navbarlogged.component';
 
 
 @NgModule({
@@ -22,7 +26,11 @@ import { LandComponent } from './land/land.component';
     LandingComponent,
     LogComponent,
     SignComponent,
-    LandComponent
+    LandComponent,
+    LandingloggedComponent,
+    AddHWComponent,
+    HWComponent,
+    NavbarloggedComponent
   ],
   imports: [
     BrowserModule,
