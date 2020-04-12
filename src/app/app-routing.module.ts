@@ -7,6 +7,10 @@ import {SignComponent} from "./auth/sign/sign.component";
 import {LandingloggedComponent} from "./appstack/landinglogged/landinglogged.component";
 import { HWComponent} from "./appstack/hw/hw.component";
 import { PredmetiComponent} from "./appstack/predmeti/predmeti.component";
+import {OcjeneComponent} from "./appstack/ocjene/ocjene.component";
+import { ZadacauceniciComponent} from "./appstack/zadacaucenici/zadacaucenici.component";
+import {PredmetiuceniciComponent} from "./appstack/predmetiucenici/predmetiucenici.component";
+import {OcjeneuceniciComponent} from "./appstack/ocjeneucenici/ocjeneucenici.component";
 
 const routes: Routes = [{
   path: '',
@@ -28,17 +32,45 @@ const routes: Routes = [{
   {
     path: 'app',
     children: [
+
       {
         path: 'ControlPanel',
         component: LandingloggedComponent
+      },{
+        path:'prof',
+        children:[
+
+          {
+            path: 'Zadaca',
+            component: HWComponent
+          },
+          {
+            path: 'Predmeti',
+            component: PredmetiComponent
+          },
+          {
+            path: 'Ocjene',
+            component: OcjeneComponent
+          },
+        ]
       },
       {
-        path: 'Zadaca',
-        component: HWComponent
-      },
-      {
-        path: 'Predmeti',
-        component: PredmetiComponent
+        path:'ucenici',
+        children:[
+
+          {
+            path: 'Zadaca',
+            component: ZadacauceniciComponent
+          },
+          {
+            path: 'Predmeti',
+            component: PredmetiuceniciComponent
+          },
+          {
+            path: 'Ocjene',
+            component: OcjeneuceniciComponent
+          },
+        ]
       }
     ]
   }];

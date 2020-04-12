@@ -7,8 +7,16 @@
       <h2 style="color: gray;font-family: 'Gilroy Light',sans-serif;font-size: xx-large">Zapocni</h2>
       <h2 style="color: gray;font-family: 'Gilroy ExtraBold',sans-serif">ucenje</h2>
       <p style="font-family: 'Gilroy Light', sans-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <a [routerLink]="['/app/Predmeti']"> <p class="join-btn" mdbWavesEffect> Predmeti</p></a>
+      <div style="display: flex;flex-direction: column">
+        <div style="display: flex;flex-direction: row">
 
+        <a [routerLink]="['/app/prof/Predmeti']" > <p class="join-btn" mdbWavesEffect> Profesor</p></a>
+        </div>
+        <div style="display: flex;flex-direction: row;margin-top: 20%" >
+
+        <a [routerLink]="['/app/ucenici/Predmeti']" style="width: 100%"> <p class="join-btn" style="margin-top: 20%;" mdbWavesEffect> Ucenik</p></a>
+        </div>
+      </div>
 
     </div>
 

@@ -16,9 +16,9 @@ margin-left: 10%;
 
 
 
-          <a> <h1 [routerLink]="['/app/prof/Predmeti']" style="font-family: 'Gilroy Light', sans-serif">Predmeti</h1></a>
+          <a> <h1 [routerLink]="['/app/ucenici/Predmeti']" style="font-family: 'Gilroy Light', sans-serif">Predmeti</h1></a>
           <a><h1 style="color: #0099CC;font-family: 'Gilroy Light', sans-serif">Zadaca</h1></a>
-          <a><h1 [routerLink]="['/app/prof/Ocjene']" style="font-family: 'Gilroy Light', sans-serif">Radovi</h1></a>
+          <a><h1 [routerLink]="['/app/ucenici/Ocjene']" style="font-family: 'Gilroy Light', sans-serif">Ocjene</h1></a>
         </div>
 
       </div>
@@ -39,33 +39,29 @@ margin-left: 10%;
           </div>
 
           <div style="width: 50%">
-            <h2 style="font-family: 'Gilroy ExtraBold',sans-serif"> Odaberite odjeljenje</h2>
+            <h2 style="font-family: 'Gilroy ExtraBold',sans-serif">Odjeljenje</h2>
           </div>
 
         </div>
         <div style="width: 120%;display: flex;flex-direction: row;margin-left: 10%;margin-top: 10%">
           <div style="width: 50%">
             <div style="width: 80%">
-            <select class="browser-default custom-select mb-4">
-              <option value="" disabled>Odaberi predmet</option>
-              <option value="1" selected>Predmet 1</option>
-              <option value="2">Bosanski</option>
-              <option value="3">Programiranje</option>
-              <option value="4">Matematika</option>
-            </select>
-          </div>
+              <select class="browser-default custom-select mb-4">
+                <option value="" disabled>Odaberi predmet</option>
+                <option value="1" selected>Predmet 1</option>
+                <option value="2">Bosanski</option>
+                <option value="3">Programiranje</option>
+                <option value="4">Matematika</option>
+              </select>
+            </div>
           </div>
 
           <div style="width: 50%">
             <div style="width: 80%">
-            <select class="browser-default custom-select mb-4">
-              <option value="" disabled>Odaberi odjeljenje</option>
-              <option value="1" selected>Odjeljenje 1</option>
-              <option value="2">2T1</option>
-              <option value="3">2T2</option>
-              <option value="4">2T3</option>
-            </select>
-          </div>
+              <select class="browser-default custom-select mb-4">
+                <option value="1" selected>2T1</option>
+              </select>
+            </div>
           </div>
 
         </div>
@@ -84,7 +80,7 @@ margin-left: 10%;
 
         </div>
         <div style="width: 120%;display: flex;flex-direction: row;margin-left: 10%;margin-top: 10%;justify-content: center;align-items: center">
-          <p class="join-btn"> Postavi</p>
+          <p class="join-btn"> Predaj</p>
 
         </div>
 

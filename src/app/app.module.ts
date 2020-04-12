@@ -17,6 +17,10 @@ import { HWComponent } from './appstack/hw/hw.component';
 import { NavbarloggedComponent } from './appstack/navbarlogged/navbarlogged.component';
 import { PredmetiComponent } from './appstack/predmeti/predmeti.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { OcjeneComponent } from './appstack/ocjene/ocjene.component';
+import { PredmetiuceniciComponent } from './appstack/predmetiucenici/predmetiucenici.component';
+import { OcjeneuceniciComponent } from './appstack/ocjeneucenici/ocjeneucenici.component';
+import { ZadacauceniciComponent } from './appstack/zadacaucenici/zadacaucenici.component';
 
 
 @NgModule({
@@ -34,7 +38,11 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     HWComponent,
     NavbarloggedComponent,
     PredmetiComponent,
-    SidenavComponent
+    SidenavComponent,
+    OcjeneComponent,
+    PredmetiuceniciComponent,
+    OcjeneuceniciComponent,
+    ZadacauceniciComponent
   ],
   imports: [
     BrowserModule,
