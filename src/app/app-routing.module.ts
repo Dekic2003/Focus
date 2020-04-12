@@ -6,6 +6,7 @@ import {LogComponent} from "./auth/log/log.component";
 import {SignComponent} from "./auth/sign/sign.component";
 import {LandingloggedComponent} from "./appstack/landinglogged/landinglogged.component";
 import { HWComponent} from "./appstack/hw/hw.component";
+import { PredmetiComponent} from "./appstack/predmeti/predmeti.component";
 
 const routes: Routes = [{
   path: '',
@@ -32,8 +33,12 @@ const routes: Routes = [{
         component: LandingloggedComponent
       },
       {
-        path: 'Homework',
+        path: 'Zadaca',
         component: HWComponent
+      },
+      {
+        path: 'Predmeti',
+        component: PredmetiComponent
       }
     ]
   }];

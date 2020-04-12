@@ -1,1 +1,90 @@
-<p>hw works!</p>
+<app-navbarlogged></app-navbarlogged>
+<div style="flex-direction: row;display: flex;width: 100%;justify-content: flex-end">
+  <div style="width: 80%;display: flex;flex-direction: row;">
+    <!--SideNav-->
+    <div style="width: 15%; margin-top: 5%;margin-bottom: 5%">
+      <div style="
+ width: 100%;
+  height: 100%;
+  border-spacing: 10px;
+  background-color: white;
+border-right: 1px ridge #0099CC;
+margin-left: 10%;
+">
+
+        <div style="padding: 10%;">
+
+
+
+          <a> <h1 [routerLink]="['/app/Predmeti']" style="font-family: 'Gilroy Light', sans-serif">Predmeti</h1></a>
+          <a><h1 style="color: #0099CC;font-family: 'Gilroy Light', sans-serif">Zadaca</h1></a>
+          <a><h1 style="font-family: 'Gilroy Light', sans-serif">Ocjene</h1></a>
+        </div>
+
+      </div>
+      <div style="position: relative; bottom: 10%;padding: 10%;margin-left:10%">
+
+        <h1 style="font-family: 'Gilroy Light', sans-serif">Postavke</h1>
+      </div>
+      <!--end of sideNav-->
+
+
+    </div>
+    <div style="width: 55%;margin-top: 5%">
+      <div style="width: 100%;display: flex;flex-direction: column;margin-left: 10%;margin-top: 0%">
+
+        <div style="width: 120%;display: flex;flex-direction: row;margin-left: 10%;margin-top: 10%">
+          <div style="width: 50%">
+            <h2 style="font-family: 'Gilroy ExtraBold',sans-serif"> Odaberite predmet</h2>
+          </div>
+
+          <div style="width: 50%">
+            <h2 style="font-family: 'Gilroy ExtraBold',sans-serif"> Odaberite odjeljenje</h2>
+          </div>
+
+        </div>
+        <div style="width: 120%;display: flex;flex-direction: row;margin-left: 10%;margin-top: 10%">
+          <div style="width: 50%">
+            <div style="width: 80%">
+            <select class="browser-default custom-select mb-4">
+              <option value="" disabled>Choose option</option>
+              <option value="1" selected>Predmet 1</option>
+              <option value="2">Report a bug</option>
+              <option value="3">Feature request</option>
+              <option value="4">Feature request</option>
+            </select>
+          </div>
+          </div>
+
+          <div style="width: 50%">
+            <div style="width: 80%">
+            <select class="browser-default custom-select mb-4">
+              <option value="" disabled>Choose option</option>
+              <option value="1" selected>Odjeljenje 1</option>
+              <option value="2">2T1</option>
+              <option value="3">2T2</option>
+              <option value="4">2T3</option>
+            </select>
+          </div>
+          </div>
+
+        </div>
+
+        <div style="width: 100%;display: flex;flex-direction: row;margin-left: 10%;margin-top: 10%">
+          <div style="width: 50%;justify-content: center;align-items: center">
+            <p class="join-btn" style="font-family: 'Gilroy Light',sans-serif"> Odaberite datoteku</p>
+          </div>
+
+          <div style="width: 50%">
+            <h2 style="font-family: 'Gilroy Light',sans-serif"> Komentar</h2>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div style="width:20%" align="right">
+    <img src="../../../assets/s_desna.png" style="width: 100%;">
+  </div>
+</div>

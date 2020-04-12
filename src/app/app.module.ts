@@ -15,6 +15,8 @@ import { LandingloggedComponent } from './appstack/landinglogged/landinglogged.c
 import { AddHWComponent } from './appstack/add-hw/add-hw.component';
 import { HWComponent } from './appstack/hw/hw.component';
 import { NavbarloggedComponent } from './appstack/navbarlogged/navbarlogged.component';
+import { PredmetiComponent } from './appstack/predmeti/predmeti.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { NavbarloggedComponent } from './appstack/navbarlogged/navbarlogged.comp
     LandingloggedComponent,
     AddHWComponent,
     HWComponent,
-    NavbarloggedComponent
+    NavbarloggedComponent,
+    PredmetiComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
